@@ -1,0 +1,160 @@
+body {
+    background-image: linear-gradient(to top, #C4DFDF 0%, #C4DFDF 100%);
+}
+
+.navBar {
+    background-color: rgb(184, 184, 184);
+    height: 60px;
+    padding-top: 5px;
+    margin-left: 1%;
+    background-image: linear-gradient(120deg, #D2E9E9 0%, #D2E9E9 100%);
+    border-radius: 10px;
+    margin-bottom: 5px;
+
+}
+.navBarObj{
+    width: 32%; height: 50px;
+}
+.navBarObj:hover{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    cursor: pointer;
+}
+.allProblems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.title {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 1%;
+    border-radius: 10px;
+    margin-left: 1%;
+    margin-bottom: 5px;
+
+    background-image: linear-gradient(120deg, #C4DFDF 0%, #a1c4fd 100%);
+
+    font-family: 'Courier New', Courier, monospace;
+    color: #4a555d;
+}
+.titleMid{
+    width: 60%;
+    margin-right: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.title img {
+    width: 15%;
+    margin-left: 0;
+}
+
+.title h1 {
+    width: 100%;
+    font-size: 4em;
+    margin-bottom: 0;
+}
+
+.problemMain {
+    display: flex;
+    height: 450px;
+    border: dashed 2px rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 10px;
+    width: 47%;
+}
+.aboutDisplay {
+    display: flex;
+   
+    border: dashed 2px rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 10px;
+
+}
+.problemMain img {
+    width: 20%;
+    margin-left: 1%;
+    margin-top: 28%;
+    margin-bottom: auto;
+    border-radius: 20px;
+}
+
+.description {
+    padding: 1%;
+    border-radius: 20px;
+    margin-left: 1%;
+    margin-bottom: 5px;
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #f4cc82 100%);
+
+
+    background-image: linear-gradient(120deg, #D2E9E9 0%, #D2E9E9 100%);
+}
+
+.intro {
+    padding: 1%;
+    border-radius: 20px;
+    margin-left: 1%;
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #0f479a 100%);
+}
+
+.problema1 {
+    /* background-image: radial-gradient(circle 248px at center, #d045e8 0%, #ec42bc 47%, #bb0c90 100%); */
+
+    background-color: #FBF6F4;
+}
+
+.problema2 {
+    /* background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%); */
+
+    
+    background-color: #FBF6F4;
+}
+
+.problema3 {
+    /* background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%); */
+
+    background-color: #FBF6F4;
+}
+
+.problema4 {
+    /* background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%); */
+
+    background-color: #FBF6F4;
+}
+
+.contentObj {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 79%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.bocetos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.bocetos-main{
+    color: #4a555d;
+}
+.boceto-item{
+    background-color: rgb(98, 98, 96);
+    width: 290px;
+    margin: 5px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    border-radius: 7px;
+}
+.boceto-item img{
+    margin: 5px;
+    width: 90%;
+}
