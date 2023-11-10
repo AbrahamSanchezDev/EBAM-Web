@@ -67,25 +67,6 @@ body {
   margin: 10px;
   width: 47%;
 }
-@media screen and (max-width: 600px) {
-  .problemMain {
-    display: flex;
-
-    height: 100%;
-    align-content: center;
-    border: dashed 2px rgb(255, 255, 255);
-    flex-direction: column;
-    align-items: center;
-    border-radius: 20px;
-    margin: 10px;
-    width: 100%;
-  }
-  .allProblems {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
-}
 .aboutDisplay {
   display: flex;
 
@@ -162,6 +143,9 @@ body {
   margin-left: 1%;
   margin-right: 1%;
 }
+.contentObj h1{
+  text-align: center;
+}
 .bocetos {
   display: flex;
   flex-wrap: wrap;
@@ -183,4 +167,39 @@ body {
 .boceto-item img {
   margin: 5px;
   width: 90%;
+}
+@media screen and (max-width: 600px) {
+  .problemMain {
+    display: flex;
+
+    height: 100%;
+    align-content: center;
+    border: dashed 2px rgb(255, 255, 255);
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    margin: 10px;
+    width: 100%;
+  }
+  .problemMain img{
+    width: 50%;
+  }
+  .allProblems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .aboutDisplay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    background-color: #000000;
+    border: dashed 2px rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 10px;
+  }
+  .aboutDisplay img {
+   
+  }
 }
